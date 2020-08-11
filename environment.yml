@@ -10,7 +10,7 @@ dependencies:
   - jupyterlab
   - matplotlib
   - pandas
+  - scipy
   - pip:
     - pyro-ppl==1.3.0
-prefix: /home/martin/miniconda3/envs/pt
 
