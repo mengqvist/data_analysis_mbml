@@ -1,8 +1,7 @@
 ### Reproduction of examples from MBML book using Pyro
 The notebook contained in this repository is part of my journy to learn Pyro. As stated on the project webpage: 
-```
-Pyro is a universal probabilistic programming language (PPL) written in Python and supported by PyTorch on the backend. Pyro enables flexible and expressive deep probabilistic modeling, unifying the best of modern deep learning and Bayesian modeling.
-```
+> Pyro is a universal probabilistic programming language (PPL) written in Python and supported by PyTorch on the backend. Pyro enables flexible and expressive deep probabilistic modeling, unifying the best of modern deep learning and Bayesian modeling.
+
 
 Specifically, I am working through the examples in the excellent Model-Based Machine Learning book (mbmlbook.com) by John Winn and trying to reproduce them using Pyro, wheras the book companion code used the Infer.NET framework.
 
