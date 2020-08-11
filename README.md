@@ -6,9 +6,9 @@ The notebook contained in this repository is part of my journy to learn Pyro. As
 Specifically, I am working through the examples in the excellent Model-Based Machine Learning book (mbmlbook.com) by John Winn and trying to reproduce them using Pyro, wheras the book companion code used the Infer.NET framework.
 
 ### Requirements
-For this project I have made use of version 1.3 of Pyro. The computational environment I used can be installed in Miniconda (https://docs.conda.io/en/latest/miniconda.html) from the yml file `packages.yml`. In a terminal execute:
+For this project I have made use of version 1.3.0 of Pyro. The computational environment I used can be installed in Miniconda (https://docs.conda.io/en/latest/miniconda.html) from the yml file `packages.yml`. In a terminal execute:
 ```bash
-conda env create -f packages.yml
+conda env create -f environment.yml
 conda activate tf1
 ```
 
