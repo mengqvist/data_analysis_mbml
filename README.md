@@ -1,16 +1,46 @@
-### Reproduction of examples from MBML book using Pyro
-The notebook contained in this repository is part of my journy to learn Pyro. As stated on the project webpage: 
-> Pyro is a universal probabilistic programming language (PPL) written in Python and supported by PyTorch on the backend. Pyro enables flexible and expressive deep probabilistic modeling, unifying the best of modern deep learning and Bayesian modeling.
+# Reproducing "Model-Based Machine Learning" Examples with Pyro
 
+![Pyro Logo](https://pyro.ai/img/pyro_logo.png)
 
-Specifically, I am working through the examples in the excellent Model-Based Machine Learning book (`mbmlbook.com`) by John Winn and trying to reproduce them using Pyro, wheras the book companion code used the Infer.NET framework.
+## Description
+This project is part of my journey to learn Pyro, a universal probabilistic programming language. I'm working through examples from the excellent "Model-Based Machine Learning" book by John Winn, implementing solutions using Pyro instead of the Infer.NET framework used in the book's companion code.
 
-### Requirements
-For this project I have made use of version 1.3.0 of Pyro. The computational environment can be installed using Miniconda (https://docs.conda.io/en/latest/miniconda.html) from the yml file `environment.yml`. In a terminal execute:
-```bash
-conda env create -f environment.yml
-conda activate tf1
-```
+## Key Features
+- Implementation of Model-Based Machine Learning examples using Pyro
+- Exploration of Pyro's capabilities in expressing complex probabilistic models
 
-### Status
-I am actively working on this so it should by no means be considered finished...
+## How to Use
+1. Clone this repository
+2. Install the environment using Miniconda:
+   ```bash
+   conda env create -f environment.yml
+   conda activate pyro
+   ```
+*Alternatively*, click the badge below to launch this project in a Binder environment in your browser.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mengqvist/data_analysis_mbml/main)
+
+## Notebooks
+1. [Main Notebook](https://github.com/mengqvist/data_analysis_mbml/blob/master/MBML_book.ipynb) - Implementation of book examples using Pyro.
+
+## Technologies Used
+- Python 3.x
+- Pyro 1.4.0
+- Jupyter Notebook
+- PyTorch
+- Matplotlib
+
+## Future Work
+- Implement more examples from the book
+- Implement all examples in [NumPyro](https://num.pyro.ai/en/latest/index.html)
+
+## How to Contribute
+This is a personal learning project, but suggestions and discussions are welcome! Feel free to open an issue or submit a pull request.
+
+## Status
+This project under sporadic development. Content and implementations may change as I progress through the book and deepen my understanding of Pyro.
+
+## Resources
+- [Pyro Documentation](https://pyro.ai/)
+- [Model-Based Machine Learning Book](http://mbmlbook.com/)
+
