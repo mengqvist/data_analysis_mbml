@@ -21,7 +21,8 @@ This project is part of my journey to learn Pyro, a universal probabilistic prog
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mengqvist/data_analysis_mbml/main)
 
 ## Notebooks
-1. [Main Notebook](https://github.com/mengqvist/data_analysis_mbml/blob/master/MBML_book.ipynb) - Implementation of book examples using Pyro.
+1. [Chapter 1](https://github.com/mengqvist/data_analysis_mbml/blob/master/MBML_book_ch1.ipynb) - Implementation of first chapter examples using Pyro.
+2. [Chapter 2](https://github.com/mengqvist/data_analysis_mbml/blob/master/MBML_book_ch2.ipynb) - Implementation of second chapter examples using Pyro.
 
 ## Technologies Used
 - Python 3.x
